@@ -8,7 +8,7 @@ interface SearchProps {
 
 const Search = styled.input<SearchProps>`
 margin: 10px 15px 10px 0px;
-text-align: center;
+text-align: center; 
 padding: 10px;
 width: 15rem;
 border-radius: 5px;
