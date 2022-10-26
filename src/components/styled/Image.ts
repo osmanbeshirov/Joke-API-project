@@ -7,8 +7,8 @@ interface ImageProps {
 }
 
 const Img = styled.img<ImageProps>`
-width: 100px;
-height: 100px
+width: 80px;
+height: 80px
 `
 
 export default Img;

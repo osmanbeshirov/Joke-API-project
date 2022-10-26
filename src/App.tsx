@@ -1,7 +1,7 @@
 import React from 'react';
-import { Wrapper, Row, Header, Img } from './components/styled/index';
+import { Wrapper, Row, Header, Img, Form, Search } from './components/styled/index';
 
-import owl from '../src/images/owl2.png'
+import owl from '../src/images/owl-cartoon.png'
 
 
 const App = () => {
@@ -12,7 +12,9 @@ const App = () => {
           <Header>Joker</Header>
           <Img src={owl} alt='owl' />
         </Row>
-        <h1>App</h1>
+        <Form>
+          <Search type={'text'} placeholder={'Type any word...'} />
+        </Form>
       </Wrapper>
     </div>
   )
